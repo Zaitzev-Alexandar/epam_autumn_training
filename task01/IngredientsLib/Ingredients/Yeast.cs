@@ -4,24 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IngredientsLib
+namespace IngredientsLib.Ingredients
 {
     /// <summary>
-    /// Class describing properties of a water.
+    /// Class describing properties of a yeast.
     /// </summary>
-    public class Water : Ingredient
+    public class Yeast : Ingredient
     {
         /// <summary>
-        /// Inits a water.
+        /// Inits a yeast.
         /// </summary>
-        /// <param name="cost">Cost of water</param>
-        /// <param name="value">Value of water</param>
-        public Water(double cost, double value)
+        /// <param name="calorie">Calories of yeast</param>
+        /// <param name="cost">Cost of yeast</param>
+        /// <param name="value">Value of yeast</param>
+        public Yeast(double calorie, double cost, double value)
         {
+            Calorie = calorie;
             Cost = cost;
-            Calorie = 0;
             Value = value;
-
         }
 
         public override string ToString()
