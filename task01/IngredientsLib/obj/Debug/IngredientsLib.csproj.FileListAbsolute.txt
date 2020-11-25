@@ -1,0 +1,6 @@
+D:\epam_autumn_training\task01\IngredientsLib\bin\Debug\IngredientsLib.dll
+D:\epam_autumn_training\task01\IngredientsLib\bin\Debug\IngredientsLib.pdb
+D:\epam_autumn_training\task01\IngredientsLib\obj\Debug\IngredientsLib.csprojAssemblyReference.cache
+D:\epam_autumn_training\task01\IngredientsLib\obj\Debug\IngredientsLib.csproj.CoreCompileInputs.cache
+D:\epam_autumn_training\task01\IngredientsLib\obj\Debug\IngredientsLib.dll
+D:\epam_autumn_training\task01\IngredientsLib\obj\Debug\IngredientsLib.pdb

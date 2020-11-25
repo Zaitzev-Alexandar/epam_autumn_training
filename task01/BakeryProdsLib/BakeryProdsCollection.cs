@@ -14,7 +14,7 @@ namespace BakeryProdsLib
         Calorie,
         Cost
     }
-    class BakeryProdsCollection
+    public class BakeryProdsCollection
     {
         private IBakeryProduct[] _products;
 

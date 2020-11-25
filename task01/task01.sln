@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngredientsLib", "Ingredien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryProdsLib", "BakeryProdsLib\BakeryProdsLib.csproj", "{07406EC3-9EB9-4FB6-9AF6-DDAD063CC251}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task01_UnitTestProject", "task01_UnitTestProject\task01_UnitTestProject.csproj", "{82DA5516-BD90-485B-BA53-19479DA8C046}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{07406EC3-9EB9-4FB6-9AF6-DDAD063CC251}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07406EC3-9EB9-4FB6-9AF6-DDAD063CC251}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07406EC3-9EB9-4FB6-9AF6-DDAD063CC251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DA5516-BD90-485B-BA53-19479DA8C046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DA5516-BD90-485B-BA53-19479DA8C046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DA5516-BD90-485B-BA53-19479DA8C046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DA5516-BD90-485B-BA53-19479DA8C046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

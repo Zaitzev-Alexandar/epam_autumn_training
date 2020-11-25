@@ -1,0 +1,9 @@
+D:\epam_autumn_training\task01\BakeryProdsLib\bin\Debug\BakeryProdsLib.dll
+D:\epam_autumn_training\task01\BakeryProdsLib\bin\Debug\BakeryProdsLib.pdb
+D:\epam_autumn_training\task01\BakeryProdsLib\bin\Debug\IngredientsLib.dll
+D:\epam_autumn_training\task01\BakeryProdsLib\bin\Debug\IngredientsLib.pdb
+D:\epam_autumn_training\task01\BakeryProdsLib\obj\Debug\BakeryProdsLib.csprojAssemblyReference.cache
+D:\epam_autumn_training\task01\BakeryProdsLib\obj\Debug\BakeryProdsLib.csproj.CoreCompileInputs.cache
+D:\epam_autumn_training\task01\BakeryProdsLib\obj\Debug\BakeryProdsLib.csproj.CopyComplete
+D:\epam_autumn_training\task01\BakeryProdsLib\obj\Debug\BakeryProdsLib.dll
+D:\epam_autumn_training\task01\BakeryProdsLib\obj\Debug\BakeryProdsLib.pdb
