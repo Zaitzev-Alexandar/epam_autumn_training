@@ -1,0 +1,11 @@
+D:\epam_autumn_training\task02\ProductsLib\bin\Debug\ProductsLib.dll
+D:\epam_autumn_training\task02\ProductsLib\bin\Debug\ProductsLib.pdb
+D:\epam_autumn_training\task02\ProductsLib\bin\Debug\Newtonsoft.Json.dll
+D:\epam_autumn_training\task02\ProductsLib\bin\Debug\ProductsExceptionLib.dll
+D:\epam_autumn_training\task02\ProductsLib\bin\Debug\ProductsExceptionLib.pdb
+D:\epam_autumn_training\task02\ProductsLib\bin\Debug\Newtonsoft.Json.xml
+D:\epam_autumn_training\task02\ProductsLib\obj\Debug\ProductsLib.csprojAssemblyReference.cache
+D:\epam_autumn_training\task02\ProductsLib\obj\Debug\ProductsLib.csproj.CoreCompileInputs.cache
+D:\epam_autumn_training\task02\ProductsLib\obj\Debug\ProductsLib.csproj.CopyComplete
+D:\epam_autumn_training\task02\ProductsLib\obj\Debug\ProductsLib.dll
+D:\epam_autumn_training\task02\ProductsLib\obj\Debug\ProductsLib.pdb
