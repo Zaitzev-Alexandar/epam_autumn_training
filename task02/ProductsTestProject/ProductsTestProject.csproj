@@ -56,7 +56,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GoodsExceptionLib\ProductsExceptionLib.csproj">
+    <ProjectReference Include="..\ProductsExceptionLib\ProductsExceptionLib.csproj">
       <Project>{e69391a6-88e4-4fce-be36-1df896f7309c}</Project>
       <Name>ProductsExceptionLib</Name>
     </ProjectReference>
