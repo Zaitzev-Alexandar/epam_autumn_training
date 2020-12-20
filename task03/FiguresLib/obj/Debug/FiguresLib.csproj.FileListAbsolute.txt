@@ -1,0 +1,11 @@
+D:\epam_autumn_training\task03\FiguresLib\bin\Debug\FiguresLib.dll
+D:\epam_autumn_training\task03\FiguresLib\bin\Debug\FiguresLib.pdb
+D:\epam_autumn_training\task03\FiguresLib\bin\Debug\SheetsLib.dll
+D:\epam_autumn_training\task03\FiguresLib\bin\Debug\ColorsLib.dll
+D:\epam_autumn_training\task03\FiguresLib\bin\Debug\SheetsLib.pdb
+D:\epam_autumn_training\task03\FiguresLib\bin\Debug\ColorsLib.pdb
+D:\epam_autumn_training\task03\FiguresLib\obj\Debug\FiguresLib.csprojAssemblyReference.cache
+D:\epam_autumn_training\task03\FiguresLib\obj\Debug\FiguresLib.csproj.CoreCompileInputs.cache
+D:\epam_autumn_training\task03\FiguresLib\obj\Debug\FiguresLib.csproj.CopyComplete
+D:\epam_autumn_training\task03\FiguresLib\obj\Debug\FiguresLib.dll
+D:\epam_autumn_training\task03\FiguresLib\obj\Debug\FiguresLib.pdb

@@ -1,0 +1,6 @@
+D:\epam_autumn_training\task03\ColorsLib\bin\Debug\ColorsLib.dll
+D:\epam_autumn_training\task03\ColorsLib\bin\Debug\ColorsLib.pdb
+D:\epam_autumn_training\task03\ColorsLib\obj\Debug\ColorsLib.csprojAssemblyReference.cache
+D:\epam_autumn_training\task03\ColorsLib\obj\Debug\ColorsLib.csproj.CoreCompileInputs.cache
+D:\epam_autumn_training\task03\ColorsLib\obj\Debug\ColorsLib.dll
+D:\epam_autumn_training\task03\ColorsLib\obj\Debug\ColorsLib.pdb

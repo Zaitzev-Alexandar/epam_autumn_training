@@ -58,7 +58,7 @@ namespace FiguresLib.FilmFigures
         public FilmCircle(int radius, IFigure figure)
         {
             if (GetType() != figure.GetType())
-                throw new Exception("Figure material must be equal.");
+                throw new Exception("Figure materials must be equal.");
 
             Radius = radius;
             Diameter = 2 * Radius;

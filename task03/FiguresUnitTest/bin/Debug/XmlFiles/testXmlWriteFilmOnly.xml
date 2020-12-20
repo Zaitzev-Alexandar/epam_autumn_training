@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<figures>
+  <figure material="Film" form="Rectangle">
+    <length>6</length>
+    <width>2</width>
+  </figure>
+  <figure material="Film" form="Circle">
+    <radius>3</radius>
+  </figure>
+</figures>

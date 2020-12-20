@@ -60,7 +60,7 @@ namespace FiguresLib.PlasticFigures
         public PlasticRectangle(double length, double width, IFigure figure)
         {
             if (GetType() != figure.GetType())
-                throw new Exception("Figure material must be equal.");
+                throw new Exception("Figure materials must be equal.");
 
             Length = length;
             Width = width;

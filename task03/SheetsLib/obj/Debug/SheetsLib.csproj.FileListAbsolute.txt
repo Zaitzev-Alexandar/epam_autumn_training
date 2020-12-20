@@ -1,0 +1,9 @@
+D:\epam_autumn_training\task03\SheetsLib\bin\Debug\SheetsLib.dll
+D:\epam_autumn_training\task03\SheetsLib\bin\Debug\SheetsLib.pdb
+D:\epam_autumn_training\task03\SheetsLib\bin\Debug\ColorsLib.dll
+D:\epam_autumn_training\task03\SheetsLib\bin\Debug\ColorsLib.pdb
+D:\epam_autumn_training\task03\SheetsLib\obj\Debug\SheetsLib.csprojAssemblyReference.cache
+D:\epam_autumn_training\task03\SheetsLib\obj\Debug\SheetsLib.csproj.CoreCompileInputs.cache
+D:\epam_autumn_training\task03\SheetsLib\obj\Debug\SheetsLib.csproj.CopyComplete
+D:\epam_autumn_training\task03\SheetsLib\obj\Debug\SheetsLib.dll
+D:\epam_autumn_training\task03\SheetsLib\obj\Debug\SheetsLib.pdb
