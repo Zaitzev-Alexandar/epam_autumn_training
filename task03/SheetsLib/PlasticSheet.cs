@@ -26,8 +26,9 @@ namespace SheetsLib
         /// <param name="color">New color</param>
         public override void Coloring(Color color)
         {
+            if(IsColored == false) { IsColored = true; }
             this.color = color;
-            IsColored = true;
+            
 
         }
     }
