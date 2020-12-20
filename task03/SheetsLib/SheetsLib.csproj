@@ -52,10 +52,6 @@
       <Project>{ab576afc-03a9-477e-bb53-3205e8a4f738}</Project>
       <Name>ColorsLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FiguresLib\FiguresLib.csproj">
-      <Project>{92f14a7b-4a6a-4be9-880f-c9462b478edc}</Project>
-      <Name>FiguresLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

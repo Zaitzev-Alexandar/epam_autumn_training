@@ -18,7 +18,7 @@ namespace SheetsLib
         public PlasticSheet()
         {
             color = Color.White;
-            IsColored = true;
+            IsColored = false;
         }
         /// <summary>
         /// Coloring plastic sheet in a new color

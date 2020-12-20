@@ -41,10 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PlasticFigures\PlasticCircle.cs" />
+    <Compile Include="PlasticFigures\PlasticRectangle.cs" />
+    <Compile Include="PaperFigures\PaperCircle.cs" />
+    <Compile Include="PaperFigures\PaperRectangle.cs" />
+    <Compile Include="FilmFigures\FilmCircle.cs" />
+    <Compile Include="FilmFigures\FilmRectangle.cs" />
     <Compile Include="Interfaces\ICircle.cs" />
     <Compile Include="Interfaces\IFigure.cs" />
     <Compile Include="Interfaces\IRectangle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SheetsLib\SheetsLib.csproj">
+      <Project>{da60201f-abc1-4341-9d3c-63ae2ad5a0b0}</Project>
+      <Name>SheetsLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
