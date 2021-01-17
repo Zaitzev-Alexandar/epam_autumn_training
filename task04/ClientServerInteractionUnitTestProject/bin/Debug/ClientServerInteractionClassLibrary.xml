@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClientServerInteractionClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:ClientServerInteractionClassLibrary.EncoidngTypes.ClientEncodingType">
+            <summary>
+            Class describing functionality of translation of message to Russian(English) language.
+            </summary>
+        </member>
+        <member name="F:ClientServerInteractionClassLibrary.EncoidngTypes.ClientEncodingType.EncodingMessage">
+            <summary>
+            Returns transleted message.
+            </summary>
+        </member>
+        <member name="T:ClientServerInteractionClassLibrary.EncoidngTypes.MessageCollection">
+            <summary>
+            Class describing functionality of collection of messages.
+            </summary>
+        </member>
+        <member name="T:ClientServerInteractionClassLibrary.EncoidngTypes.MessageCollection.ClientMessageCollection">
+            <summary>
+            Class describing collection of client messages.
+            </summary>
+        </member>
+        <member name="P:ClientServerInteractionClassLibrary.EncoidngTypes.MessageCollection.ClientMessageCollection.ClientName">
+            <summary>
+            Client`s name.
+            </summary>
+        </member>
+        <member name="P:ClientServerInteractionClassLibrary.EncoidngTypes.MessageCollection.ClientMessageCollection.Item(System.Int32)">
+            <summary>
+            Returns client`s message by index.
+            </summary>
+            <param name="index">Message`s index.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClientServerInteractionClassLibrary.EncoidngTypes.MessageCollection.ClientMessageCollection.#ctor(System.String)">
+            <summary>
+            Initialize message colection of client.
+            </summary>
+            <param name="clientName">Client`s name.</param>
+        </member>
+        <member name="M:ClientServerInteractionClassLibrary.EncoidngTypes.MessageCollection.ClientMessageCollection.AddMessage(System.String)">
+            <summary>
+            Add new message to collection.
+            </summary>
+            <param name="message">Cliet`s message.</param>
+        </member>
+        <member name="P:ClientServerInteractionClassLibrary.EncoidngTypes.MessageCollection.Count">
+            <summary>
+            Count of clients.
+            </summary>
+        </member>
+        <member name="P:ClientServerInteractionClassLibrary.EncoidngTypes.MessageCollection.Item(System.Int32)">
+            <summary>
+            Returns message collection of client by index.
+            </summary>
+            <param name="index">Index of client.</param>
+            <returns></returns>
+        </member>
+        <member name="P:ClientServerInteractionClassLibrary.EncoidngTypes.MessageCollection.MessageHandler">
+            <summary>
+            Adds message of client to collection.
+            </summary>
+        </member>
+        <member name="M:ClientServerInteractionClassLibrary.EncoidngTypes.MessageCollection.#ctor">
+            <summary>
+            Initialize client`s message collection. 
+            </summary>
+        </member>
+        <member name="T:ClientServerInteractionClassLibrary.NetworkPoint">
+            <summary>
+            Class describing base parameters for the Client-Server interaction.
+            </summary>
+        </member>
+        <member name="F:ClientServerInteractionClassLibrary.NetworkPoint.ipString">
+            <summary>
+            IP-address string.
+            </summary>
+        </member>
+        <member name="F:ClientServerInteractionClassLibrary.NetworkPoint.port">
+            <summary>
+            The server port.
+            </summary>
+        </member>
+        <member name="F:ClientServerInteractionClassLibrary.NetworkPoint.ipPoint">
+            <summary>
+            Contains network point with IP-Address and port of the Server.
+            </summary>
+        </member>
+        <member name="F:ClientServerInteractionClassLibrary.NetworkPoint.maxBufferSize">
+            <summary>
+            Max buffer size for message.
+            </summary>
+        </member>
+        <member name="M:ClientServerInteractionClassLibrary.NetworkPoint.#ctor(System.String,System.Int32)">
+            <summary>
+            Initialize object of the BaseParameters class.
+            </summary>
+            <param name="ipString">The Server IP-Address string.</param>
+            <param name="port">The Server port.</param>
+        </member>
+        <member name="T:ClientServerInteractionClassLibrary.NetworkPoint.EncodingMessageHandler">
+            <summary>
+            The delegate for methods, which encodings and returns message.
+            </summary>
+            <param name="message">The client(server) message.</param>
+            <returns>New encodinged message.</returns>
+        </member>
+        <member name="E:ClientServerInteractionClassLibrary.NetworkPoint.EncodingMessageEvent">
+            <summary>
+            Event, which calls the EncodingMessage delegate.
+            </summary>
+        </member>
+        <member name="M:ClientServerInteractionClassLibrary.NetworkPoint.CallEvent(System.String)">
+            <summary>
+            Calls event in derived classes.
+            </summary>
+            <param name="message">The client(server) message.</param>
+            <returns>New encodinged message.</returns>
+        </member>
+        <member name="T:ClientServerInteractionClassLibrary.Client">
+            <summary>
+            Class describing functionality of Client. 
+            </summary>
+        </member>
+        <member name="P:ClientServerInteractionClassLibrary.Client.ClientName">
+            <summary>
+            Name of the Client.
+            </summary>
+        </member>
+        <member name="M:ClientServerInteractionClassLibrary.Client.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            Initialize the Client object and connects to the Server.
+            </summary>
+            <param name="clientName">Name of the Client.</param>
+            <param name="ipString">The Server IP-Address string.</param>
+            <param name="port">The Server port.</param>
+        </member>
+        <member name="M:ClientServerInteractionClassLibrary.Client.SendMessage(System.String)">
+            <summary>
+            Sends the message to the Server and return answer from the Server.
+            </summary>
+        </member>
+        <member name="M:ClientServerInteractionClassLibrary.Client.ReciveMessage">
+            <summary>
+            Recives message from the Server and returns this.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ClientServerInteractionClassLibrary.Server">
+            <summary>
+            Class describing functionality of Server.
+            </summary>
+        </member>
+        <member name="M:ClientServerInteractionClassLibrary.Server.#ctor(System.String,System.Int32)">
+            <summary>
+            Initialize the Server object.
+            </summary>
+            <param name="ipString">The Server IP-Address string.</param>
+            <param name="port">The Server port.</param>
+        </member>
+        <member name="M:ClientServerInteractionClassLibrary.Server.Run">
+            <summary>
+            Runs the Server.
+            </summary>
+        </member>
+        <member name="M:ClientServerInteractionClassLibrary.Server.ReciveMessages(System.String)">
+            <summary>
+            Recives messages form clients and send answer to clients. Also returns the client message.
+            </summary>
+            <param name="answer">The message of the server, which will be sented to the client.</param>
+            <returns>The client message.</returns>
+        </member>
+    </members>
+</doc>
